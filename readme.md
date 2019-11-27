@@ -1,3 +1,4 @@
+### SUCCESVOL GEPUSHT VANAF BranchTest
 ## Wil je niet constant inloggen?
 Voer dan de volgende commando's uit in de terminals:  
 git config --global user.name 'email\_of\_gebruikersnaam\_op\_github'  
@@ -52,12 +53,16 @@ Dit doe je met het commando:
 **Commit een update, en maak hem klaar om te uploaden.**  
 git commit -m "Wat heb je veranderd? Wat heb je toegevoegd? Geef dit hier aan!"  
   
-**Haal de nieuwste versie van de branch waar je op zit van de server.**  
-git pull  
+**origin is de remote repository op github (voorbeeld: https://github.com/ROCMondriaanTIN/project-greenfoot).**  
+**master is de branch die je op de repository wilt zetten.**  
+**Dus als je bijvoorbeeld aan de branch 'Level3' werkt, dan voer je Level3 in in plaats van master!**
+**Haal de nieuwste commit(versie) van de branch waar je op zit van de server.**  
+git pull origin master  
   
-**Zet jouw commit van de branch waar je op zit op de server.**  
-git push  
+**Zet jouw commit(versie) van de branch waar je op zit op de server.**  
+git push origin master  
   
+**Als je niet elke keer origin master wilt invoeren,** [kijk dan hiernaar](https://devconnected.com/how-to-set-upstream-branch-on-git/)
 **Maak een nieuwe branch, en wissel onmiddelijk naar deze branch:**  
 git checkout -b **NAAM**  
   
@@ -68,9 +73,8 @@ git branch -a
   
 **ALS JE EEN BESTAND VAN EEN ANDERE BRANCH WILT CLONEN, DAN:**  
 git checkout Jouw_Branch  
+**OF**  
 git checkout Andere_Branch path/to/file.txt  
-  
-> Dit kan op meerdere manieren.
 git add . **< JE VOERT DIT UIT OM HET NIEUWE BESTAND TOE TE VOEGEN AAN JE BRANCH**  
   
 **Je kan een bestand of map toevoegen aan een branch door middel van:**  

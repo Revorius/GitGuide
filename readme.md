@@ -1,4 +1,4 @@
-### SUCCESVOL GEPUSHT VANAF BranchTest
+### SUCCESVOL GEPUSHT VANAF master
 ## Wil je niet constant inloggen?
 Voer dan de volgende commando's uit in de terminals:  
 git config --global user.name 'email\_of\_gebruikersnaam\_op\_github'  

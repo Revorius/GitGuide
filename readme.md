@@ -63,13 +63,12 @@ git checkout -b **NAAM**
   
 **Bekijk alle branches:**  
 git branch -a  
+> De branch met een * ervoor is de branch waar je momenteel op zit.
+> Hierna moet je het bestand toevoegen aan de nieuwe commit.
   
 **ALS JE EEN BESTAND VAN EEN ANDERE BRANCH WILT CLONEN, DAN:**  
 git checkout Jouw_Branch  
 git checkout Andere_Branch path/to/file.txt  
-> De branch met een * ervoor is de branch waar je momenteel op zit.
-  
-> Hierna moet je het bestand toevoegen aan de nieuwe commit.
   
 > Dit kan op meerdere manieren.
 git add . **< JE VOERT DIT UIT OM HET NIEUWE BESTAND TOE TE VOEGEN AAN JE BRANCH**  

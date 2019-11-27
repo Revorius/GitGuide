@@ -1,5 +1,5 @@
 Het word aanbevolen om eerst [deze handbook](https://guides.github.com/introduction/git-handbook/) te lezen  
-##LEES: ALLES MET EEN * MOET VERANDERD WORDEN.
+## sssLEES: ALLES MET EEN * MOET VERANDERD WORDEN.
 ## Wil je niet constant inloggen?
 Voer dan de volgende commando's uit in de terminals:  
 `git config --global user.name 'email_of_gebruikersnaam_op_github'`  
